@@ -30,4 +30,6 @@ git checkout命令加上-b参数表示创建并切换，相当于以下两条命
 Creating a new branch is quick AND simple.
 这句话实在feature1分支也在该文操作的同时操作的，以此来制造分支冲突
 auto erge出错，我们需要手动处理，再add,commit 
+--- user1 ---
+以后每个人都在自己的分支工作，提交到远程库，有特定的人来merge到dev分支（工作分支），master分支作为稳定版本（发布分支）
 
